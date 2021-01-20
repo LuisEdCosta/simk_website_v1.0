@@ -1,0 +1,53 @@
+body {
+    margin: 0 0 0 0;
+}
+
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('../pictures/team/welcome_background.jpg');
+    background-position: center;
+}
+
+.logo {
+    display: block;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25vh;
+}
+
+.language {
+    margin-top: 25vh;
+    height: 20vh;
+    text-align: center;
+}
+
+.language a {
+    font-family: 'Exo 2', sans-serif;
+    font-style: italic;
+    font-size: 1.25em;
+    font-weight: 900;
+    letter-spacing: .2em;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.5em;
+    padding: 1em 1.5em 1em 1.5em;
+    text-decoration: none;
+    transition: color 350ms ease-in-out;
+    opacity: 0.9;
+}
+
+.language a:hover {
+    color: #00cc00;
+    background-color: black;
+    border: 3px solid white;
+    transition: background-color 500ms ease-in-out;
+    opacity: 0.95;
+}
+

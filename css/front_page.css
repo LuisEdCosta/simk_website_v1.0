@@ -1,0 +1,34 @@
+body {
+    margin: 0 0 0 0;
+    overflow: auto;
+}
+
+.container {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: #222222;
+}
+
+.content-wrapper {
+    display: block;
+    width: 100%;
+    height: 95vh;
+}
+
+.banner {
+    width: 18%;
+    height: 100%;
+    background-color: #222222;
+    float: left;
+}
+
+.content {
+    width: 64%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}

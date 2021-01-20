@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    height: 55vh;
+    background-color: black;
+}
+
+.logo_footer-wrapper {
+    padding-top: 2em;
+	height: 35%;
+	
+}
+
+.logo_footer {
+    display: block;
+    margin: auto;
+    height: 100%;
+}
